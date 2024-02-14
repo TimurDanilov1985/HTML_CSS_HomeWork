@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+header {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    width: 137px;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 35px;
+}
+
+.logo h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 14px;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    width: 533px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu select {
+    border: 0;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu select option{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+main {
+    width: 100%;
+    height: 375px;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea {
+    height: 100%;
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texth1 {
+    width: 522;
+    height: 222;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+
+.textp {
+    margin-top: 17px;
+    width: 466px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.buttons {
+    font-family: Gilroy-Bold;
+    margin-top: 37px;
+    height: 50px;
+    width: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1 {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.button2 {
+    border: 0;
+    background-color: white;
+    width: 90px;
+    height: 19px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(170, 170, 170)
+}
+
+.img {
+    height: 100%;
+    width: 611px;
+    display: flex;
+}
+
+.img img {
+    height: 100%;
+    width: 544px;
+}
+
+footer {
+    margin-top: 259px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
