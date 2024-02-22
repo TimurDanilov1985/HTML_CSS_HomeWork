@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.header {
+    margin-top: 40px;
+    min-height: 40px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 137px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    height: 100%;
+    width: 533px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu select {
+    border: 0;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.menu select option {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.main {
+    max-width: 100%;
+    min-height: 375px;
+    margin-top: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 41px;
+    ;
+}
+
+.description {
+    height: 100%;
+    max-width: 522px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text {
+    max-width: 100%;
+    min-height: 324px;
+}
+
+.text .p1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    padding-bottom: 17px;
+}
+
+.text .p2 {
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    padding-bottom: 37px;
+    font-family: 'Gilroy-Medium', sans-serif
+}
+
+.buttons {
+    margin-top: 37px;
+    min-height: 50px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    flex-wrap: wrap;
+}
+
+.button1 {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.button2 {
+    border: 0;
+    background-color: white;
+    width: 90px;
+    height: 19px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(170, 170, 170)
+}
+
+.img {
+    max-height: 100%;
+    max-width: 544px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 259px;
+    max-width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.next {
+    padding-top: 50px;
+    max-width: 100%;
+    min-height: 491px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    max-width: 310px;
+    min-height: 291px;
+}
+
+.card2 {
+    max-width: 370px;
+    min-height: 291px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.card3 {
+    max-width: 310px;
+    min-height: 291px;
+}
+
+.st_cards {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.st_cards img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.st_cards h1 {
+    padding-top: 25px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.st_cards p {
+    padding-top: 17px;
+    padding-bottom: 25px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #666666;
+}
+
+.st_cards a {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #000000
+}
+
+.next1 {
+    max-width: 100%;
+    min-height: 919px;
+    padding-bottom: 100px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.next1 h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    padding-top: 92px;
+}
+
+.next1 p {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #666666;
+    padding-top: 19px;
+    padding-bottom: 54px;
+}
+
+.cards {
+    max-width: 370px;
+    min-height: 549px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards .image {
+    max-width: 370px;
+    max-height: 297px;
+}
+
+.cards .image img {
+    width: 100%;
+    height: 100%;
+}
+.cards h1 {
+    padding-bottom: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+
+.cards p {
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #AAAAAA;
+}
+
+.cards button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background-color: #F25822;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.img_b {
+    padding-left: 6px;
+}
